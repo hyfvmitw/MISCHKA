@@ -1,3 +1,15 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: #F9F9F9;
+}
+.container {
+    margin: 0 auto;
+    min-width: 1050px;
+}
+.hero {
+    width: 1150px;
+    height: 746px;
+    background-image: url(../img/hero-desktop-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
