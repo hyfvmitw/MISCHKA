@@ -13,13 +13,12 @@
     <header class="main-header">
         <div class="container">
             <nav class="main-nav">
-                <img src="img/mishka-logo-desktop.svg" width="149" height="72" alt="Логотип сайта Мишка">
+                <img class="logo-desktop" src="img/mishka-logo-desktop.svg" width="149" height="72"
+                    alt="Логотип сайта Мишка">
                 <div class="top-menu">
                     <ul class="top-menu-list">
-                        <li class="top-menu-item"><a href="#" class="top-menu-link">Каталог товаров</a></li>
+                        <li class="top-menu-item"><a href="#" class="top-menu-link first-link">Каталог товаров</a></li>
                         <li class="top-menu-item"><a href="#" class="top-menu-link">Вязание на заказ</a></li>
-                        <li class="top-menu-item"><a href="#" class="top-menu-link">Новые поступления</a></li>
-                        <li class="top-menu-item"><a href="#" class="top-menu-link">Распродажа</a></li>
                     </ul>
                 </div>
                 <div class="user-menu">
@@ -27,65 +26,141 @@
                     <div class="cart">
                         <p class="cart-text">Корзина: пока пуста</p>
                     </div>
-                    <p class="main-text">Бесплатная доставка по России</p>
                 </div>
             </nav>
         </div>
     </header>
-    <section class="hero">
-        <div class="container">
-            <h1>Милые штуки ручной работы для дома</h1>
-            <div class="hero-bottom">
-                <div class="hero-bottom-interior">Предметы интерьера</div>
-                <div class="hero-bottom-toy">Детские игрушки</div>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Милые штуки ручной работы для дома</h1>
+                <div class="hero-top">
+                    <div class="hero-link-wrap">
+                        <a href="#" class="hero-link">Новые поступления</a>
+                        <a href="#" class="hero-link">Распродажа</a>
+                    </div>
+                    <p class="main-text">Бесплатная доставка по России</p>
+                </div>
+                
+                <div class="hero-bottom">
+                    <div class="hero-bottom-interior">Предметы интерьера</div>
+                    <div class="hero-bottom-toy">Детские игрушки</div>
+                </div>
             </div>
-        </div>
-    </section>
-    <section class="featured">
-        <h2>Вязаные корзинки</h2>
-        <p class="top-product">Товар недели</p>
-        <p>Экологически чистая пряжа, ручная работа. Доступны в шести расцветках и трёх размерах.</p>
-        <dl class="desc-list">
-            <dt class="desc-term">Цвет:</dt>
-            <dd class="desc-def">тиффани/серый</dd>
-            <dt class="desc-term">Диаметр:</dt>
-            <dd class="desc-def">25 см</dd>
-            <dt class="desc-term">Высота:</dt>
-            <dd class="desc-def">15 см</dd>
-        </dl>
-        <p class="price">Цена: 990 руб.</p>
-        <button type="button">Заказать</button>
-        <img src="img/triple-set.jpg" height="525" width="636" alt="Изображение товара недели">
-    </section>
-    <section class="about">
-        <h2>Коротко о нас:</h2>
-        <ul class="about-list">
-            <li class="about-item">
-                <img src="img/icon-1.svg" height="33" width="38">
-                <p class="about-item-text">Экологически чистые материалы</p>
-            </li>
-            <li class="about-item">
-                <img src="img/icon-2.svg" height="34" width="35">
-                <p class="about-item-text">Связано вручную с любовью и умилением</p>
-            </li>
-            <li class="about-item">
-                <img src="img/icon-3.svg" height="27" width="47">
-                <p class="about-item-text">Скандинавский стиль по российской цене</p>
-            </li>
-            <li class="about-item">
-                <img src="img/icon-4.svg" height="23" width="55">
-                <p class="about-item-text">Поддержка отечественного производителя</p>
-            </li>
-            <li class="about-item">
-                <img src="img/icon-5.svg" height="33" width="38">
-                <p class="about-item-text">Увеличивает лайки на фотографиях</p>
-            </li>
-            <li class="about-item">
-                <img src="img/icon-6.svg" height="32" width="33">
-                <p class="about-item-text">Поставляется в подарочной упаковке</p>
-            </li>
+        </section>
+        <section class="featured">
+            <h2>Вязаные корзинки</h2>
+            <p class="top-product">Товар недели</p>
+            <p>Экологически чистая пряжа, ручная работа. Доступны в шести расцветках и трёх размерах.</p>
+            <dl class="desc-list">
+                <dt class="desc-term">Цвет:</dt>
+                <dd class="desc-def">тиффани/серый</dd>
+                <dt class="desc-term">Диаметр:</dt>
+                <dd class="desc-def">25 см</dd>
+                <dt class="desc-term">Высота:</dt>
+                <dd class="desc-def">15 см</dd>
+            </dl>
+            <p class="price">Цена: 990 руб.</p>
+            <button type="button">Заказать</button>
+            <img src="img/triple-set.jpg" height="525" width="636" alt="Изображение товара недели">
+        </section>
+        <section class="about">
+            <h2>Коротко о нас:</h2>
+            <ul class="about-list">
+                <li class="about-item">
+                    <img src="img/icon-1.svg" height="33" width="38">
+                    <p class="about-item-text">Экологически чистые материалы</p>
+                </li>
+                <li class="about-item">
+                    <img src="img/icon-2.svg" height="34" width="35">
+                    <p class="about-item-text">Связано вручную с любовью и умилением</p>
+                </li>
+                <li class="about-item">
+                    <img src="img/icon-3.svg" height="27" width="47">
+                    <p class="about-item-text">Скандинавский стиль по российской цене</p>
+                </li>
+                <li class="about-item">
+                    <img src="img/icon-4.svg" height="23" width="55">
+                    <p class="about-item-text">Поддержка отечественного производителя</p>
+                </li>
+                <li class="about-item">
+                    <img src="img/icon-5.svg" height="33" width="38">
+                    <p class="about-item-text">Увеличивает лайки на фотографиях</p>
+                </li>
+                <li class="about-item">
+                    <img src="img/icon-6.svg" height="32" width="33">
+                    <p class="about-item-text">Поставляется в подарочной упаковке</p>
+                </li>
+            </ul>
+        </section>
+        <section class="reviews">
+            <h2>Отзывы</h2>
+            <div class="slide-1">
+                <blockquote>
+                    <p class="review-text">Я молодая мама, но всё равно фотографии не набирали и близко такого
+                        количества
+                        лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и
+                        мои
+                        фотографии сразу стали более стильными, а также набирают больше лайков!</p>
+                    <cite>Анастасия Красильникова @misssssiskras</cite>
+                </blockquote>
+                <button type="button">Написать</button>
+                <button class="arrow-left" type="button"></button>
+                <button class="arrow-right" type="button"></button>
+            </div>
+            <div class="slide-2">
+                <blockquote>
+                    <p class="review-text">Я сестра молодой мамы, но всё равно фотографии не набирали и близко такого
+                        количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в
+                        Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!</p>
+                    <cite>Екатерина Красильникова @misssssiskras2</cite>
+                </blockquote>
+                <button type="button">Написать</button>
+                <button class="arrow-left" type="button"></button>
+                <button class="arrow-right" type="button"></button>
+            </div>
+            <div class="slide-3">
+                <blockquote>
+                    <p class="review-text">Я двоюродная сестра молодой мамы, но всё равно фотографии не набирали и
+                        близко
+                        такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и
+                        игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!
+                    </p>
+                    <cite>Елена Красильникова @misssssiskras3</cite>
+                </blockquote>
+                <button type="button">Написать</button>
+                <button class="arrow-left" type="button"></button>
+                <button class="arrow-right" type="button"></button>
+            </div>
+        </section>
+        <section class="contacts">
+            <h2>Контакты</h2>
+            <dl class="contac-list">
+                <dt class="contac-term">e-mail:</dt>
+                <dd class="contac-def">info@mimimishkashop.ru</dd>
+                <dt class="contac-term">адрес:</dt>
+                <dd class="contac-def">г. Санкт-Петербург <br> ул. Большая Конюшенная <br> д. 19/8, офис 101</dd>
+            </dl>
+            <button type="button">Напишите нам</button>
+            <img src="img/map-desktop.jpg" width="527" height="457" alt="Найти нас на карте">
+        </section>
+    </main>
+    <footer class="main-footer">
+        <img src="img/logo-footer.svg" width="149" height="72" alt="Логотип сайта Мишка">
+        <ul class="social-list">
+            <li class="social-item"><a href="" class="social-link">vkontakte</a></li>
+            <li class="social-item"><a href="" class="social-link">youtube</a></li>
+            <li class="social-item"><a href="" class="social-link">telegram</a></li>
         </ul>
-    </section>
+        <div class="copyright">
+            <p>Разработано</p>
+            <svg width="27" height="35" viewBox="0 0 27 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M13.7539 0.0444336H13.6543L0.208984 1.44443V26.1444L13.6543 34.1444L27 26.1444V1.44443L13.7539 0.0444336ZM25.1077 12.1444L13.6543 5.34443V5.24443H13.5547L13.4551 5.14443V5.24443L2.10129 12.1444V3.14443L13.5547 1.94443L25.1077 3.14443V12.1444ZM13.5547 6.84443L25.0081 13.5444L20.5263 16.1444L13.4551 11.9444V13.3444L19.3312 16.8444L18.4349 17.3444L13.4551 14.3444V15.7444L17.2397 18.0444L16.443 18.5444L13.4551 16.7444V18.1444L15.3474 19.2444L13.5547 20.3444L2.20088 13.6444L13.5547 6.84443ZM2.10129 15.1444L13.4551 21.9444V22.9444L5.58711 18.2444V19.6444L13.5547 24.4444V25.5444L5.58711 20.8444V22.2444L13.5547 27.0444L21.6219 22.1444V16.9444L25.0081 14.9444V24.9444L13.5547 31.8444L2.10129 25.0444V15.1444Z"
+                    fill="#63D1BB" />
+            </svg>
+        </div>
+    </footer>
 </body>
 
 </html>

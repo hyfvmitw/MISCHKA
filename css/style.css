@@ -1,15 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
+    color: #000;
     background-color: #F9F9F9;
+    width: 1150px;
+    margin: 0 auto;
+}
+.main-header {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .container {
     margin: 0 auto;
-    min-width: 1050px;
+    width: 1050px;
 }
+
+.main-nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-desktop {
+    position: absolute;
+    left: 50%;
+    top: 9px;
+    transform: translateX(-50%);
+}
+
+.top-menu-list {
+    width: 525px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 220px 220px;
+}
+.top-menu-item {
+    position: relative;
+}
+.top-menu-item::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    right: 35px;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.top-menu-item:last-child::before {
+    border-right: none;
+}
+.top-menu-link, .cart {
+    display: block;
+    padding: 33px 0;
+    color: #000;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.user-menu {
+    display: flex;
+}
+
+.search {
+    background-image: url(../img/search.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 18px;
+    height: 100%;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0 32px;
+}
+.cart {
+    position: relative;
+    margin-left: 85px;
+}
+.cart-text::before {
+    position: absolute;
+    content: "";
+    width: 21px;
+    height: 18px;
+    top: 50%;
+    left: -54px;
+    transform: translateY(-50%);
+    background-image: url(../img/cart.svg);
+    background-size: 21px 18px;
+    background-repeat: no-repeat;
+}
+
+.link-bottom {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 18px 0;
+}
+
 .hero {
     width: 1150px;
     height: 746px;
     background-image: url(../img/hero-desktop-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
+}
+.hero-top {
+    display: flex;
+    justify-content: space-between;
 }
