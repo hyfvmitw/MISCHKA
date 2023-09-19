@@ -119,7 +119,9 @@ body {
     background-image: url(../img/hero-desktop-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    margin-bottom: 68px;
 }
+
 .hero::after {
     position: absolute;
     content: "";
@@ -218,4 +220,114 @@ body {
     color: #444;
     font-size: 15px;
     line-height: 24px;
+}
+
+.container-featured {
+    position: relative;
+    background-image: url(../img/triple-set.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.container-featured::after {
+    position: absolute;
+    content: "";
+    height: 32px;
+    width: 100%;
+    bottom: -26px;
+    background-image: url(../img/zigzag-line-desktop.svg);
+    background-repeat: repeat-x;
+    background-position: center;
+}
+.content-wrap {
+    position: relative;
+    padding-top: 61px;
+    padding-left: 175px;
+}
+
+.featured-h2 {
+    position: relative;
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 57px;
+    margin-bottom: 36px;
+}
+
+.featured-wrap {
+    width: 292px;
+}
+
+.featured-h2::before {
+    position: absolute;
+    width: 100px;
+    content: "Товар недели";
+    top: 9px;
+    left: -142px;
+    color: #63D1BB;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+
+.featured-text {
+    color: #444;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+
+.desc-list {
+    color: #444;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 128px;
+}
+
+.desc-item {
+    position: relative;
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.desc-item::before {
+    position: absolute;
+    content: "";
+    width: 291px;
+    height: 1px;
+    top: 32px;
+    background: #ECECEC;
+}
+
+.desc-term {
+    width: 97px;
+}
+
+.desc-def {
+    width: 160px;
+}
+
+.featured-price {
+    color: #444;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 33px;
+}
+
+.featured-btn {
+    width: 292px;
+    height: 52px;
+    border: 2px solid #444;
+    background: #FFF;
+    color: #444;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 73px;
 }
