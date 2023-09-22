@@ -228,6 +228,7 @@ body {
     background-repeat: no-repeat;
     background-position: right top;
 }
+
 .container-featured::after {
     position: absolute;
     content: "";
@@ -238,10 +239,12 @@ body {
     background-repeat: repeat-x;
     background-position: center;
 }
+
 .content-wrap {
     position: relative;
     padding-top: 61px;
     padding-left: 175px;
+    margin-bottom: 90px;
 }
 
 .featured-h2 {
@@ -330,4 +333,34 @@ body {
     line-height: 20px;
     text-transform: uppercase;
     margin-bottom: 73px;
+}
+
+.about-wrap {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.about-h2 {
+    margin-bottom: 39px;
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 57px;
+}
+
+.about-list {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.about-img {
+    margin-bottom: 18px;
+}
+
+.about-item-text {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 57px;
 }
