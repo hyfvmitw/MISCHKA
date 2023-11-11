@@ -338,6 +338,7 @@ body {
 .about-wrap {
     width: 700px;
     margin: 0 auto;
+    margin-bottom: 26px;
 }
 
 .about-h2 {
@@ -363,4 +364,90 @@ body {
     font-weight: 700;
     line-height: 22px;
     margin-bottom: 57px;
+}
+
+.reviews {
+    position: relative;
+}
+
+.reviews-h2 {
+    position: absolute;
+    top: 78px;
+    left: 175px;
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 57px;
+}
+
+.reviews-wrap {
+    position: relative;
+    padding-left: 175px;
+    padding-top: 170px;
+}
+
+.reviews-slide {
+    background-image: url(../img/review-1.jpg);
+    background-repeat: no-repeat;
+    height: 457px;
+    margin-bottom: 27px;
+}
+
+.reviews-text {
+    color: #444;
+    font-family: Open Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 44px;
+}
+
+.rewiews-autor {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.rewiews-insta {
+    color: #444;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.reviews-button {
+    position: absolute;
+    top: 78px;
+    right: 0;
+    width: 175px;
+    height: 52px;
+    border: 2px solid #444;
+    background: #FFF;
+    color: #444;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.reviews-arrow-left {
+    position: absolute;
+    top: 320px;
+    right: 106px;
+    background-color: transparent;
+    border: none;
+}
+
+.reviews-arrow-right {
+    position: absolute;
+    top: 320px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+}
+.slide-2 {
+    display: none;
+}
+.slide-3 {
+    display: none;
 }
