@@ -476,6 +476,7 @@ body {
     background-repeat: no-repeat;
     background-position: right;
     padding-left: 175px;
+    margin-bottom: 95px;
 }
 
 .contacts-wrap::before {
@@ -533,4 +534,36 @@ body {
     font-weight: 700;
     line-height: 20px;
     text-transform: uppercase;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    min-height: 153px;
+    background: #F1F1F1;
+}
+
+.social-list {
+    list-style-type: none;
+    display: flex;
+}
+
+.social-item {
+    margin-right: 29px;
+}
+.social-item:last-child {
+    margin-right: 0;
+}
+.copyright {
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.copyright-svg {
+    margin-left: 28px;
 }
