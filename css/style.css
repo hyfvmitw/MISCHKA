@@ -368,6 +368,7 @@ body {
 
 .reviews {
     position: relative;
+    margin-bottom: 160px;
 }
 
 .reviews-h2 {
@@ -390,6 +391,17 @@ body {
     background-repeat: no-repeat;
     height: 457px;
     margin-bottom: 27px;
+}
+
+.reviews::after {
+    position: absolute;
+    content: "";
+    height: 32px;
+    width: 100%;
+    bottom: -95px;
+    background-image: url(../img/zigzag-line-desktop.svg);
+    background-repeat: repeat-x;
+    background-position: center;
 }
 
 .reviews-text {
@@ -445,9 +457,80 @@ body {
     background-color: transparent;
     border: none;
 }
+
 .slide-2 {
     display: none;
 }
+
 .slide-3 {
     display: none;
+}
+
+.contacts {
+    position: relative;
+}
+
+.contacts-wrap {
+    position: relative;
+    background-image: url(../img/map-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: 175px;
+}
+
+.contacts-wrap::before {
+    position: absolute;
+    content: "";
+    height: 81px;
+    width: 47px;
+    top: 63px;
+    left: 63px;
+    background-image: url(../img/flag.svg);
+}
+
+.contacts-wrap::after {
+    position: absolute;
+    content: "";
+    width: 67px;
+    height: 100px;
+    top: 147px;
+    right: 220px;
+    background-image: url(../img/map-pin.svg);
+}
+
+.contacts-h2 {
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 57px;
+    padding-top: 80px;
+    margin-bottom: 35px;
+}
+
+.contacts-list {
+    margin-bottom: 85px;
+}
+
+.contacts-item {
+    display: flex;
+    color: #444;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.contacts-term {
+    margin-right: 24px;
+    margin-bottom: 30px;
+}
+
+.contacts-btn {
+    width: 230px;
+    height: 52px;
+    border: 2px solid #444;
+    color: #444444;
+    background: #FFF;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
 }
